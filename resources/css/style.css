@@ -1,0 +1,51 @@
+
+
+html {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* === LOGO AND NAVIGATION STYLES === */
+
+nav a {
+    color: white;
+    font-family: Helvetica;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+nav a:nth-child(2) {
+    padding: 0 2rem;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 1.5rem;
+    padding-right: 1rem;
+}
+
+.logo p {
+    font-family: Helvetica;
+    font-size: 1rem;
+    color: white;
+}
+
