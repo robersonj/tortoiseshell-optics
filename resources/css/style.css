@@ -20,9 +20,10 @@ nav a {
 
 .header {
     background-image: url("../images/background.png");
-    height: 30rem;
+    height: 35rem;
     background-size: cover;
     background-position: top;
+    
 }
 
 .header-nav, .logo {
@@ -57,14 +58,14 @@ nav a {
 .img-header {
     background-color: white;
     font-family: Helvetica;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.2;
     text-transform: uppercase;
     padding: 2rem 5rem;
-    margin-top: 10rem;
+    margin-top: 12rem;
     margin-right: -2rem;
-    width: 24rem;
+    width: 30rem;
     float: right;
     text-align: center;
 }
