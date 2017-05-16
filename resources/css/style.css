@@ -21,7 +21,7 @@ nav a {
 
 .header {
     background-image: url("../images/background.png");
-    height: 35rem;
+    height: 30rem;
     background-size: cover;
     background-position: top;
 }
@@ -54,22 +54,17 @@ nav a {
     display: flex;
 }
 
-.experiment {
-    height: 1rem;
-    background-color: blue;
-}
-
 /* === TAGLINE STYLES === */
 
-.img-header {
+.tagline {
     background-color: white;
     font-family: Helvetica;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 1.2;
     text-transform: uppercase;
-    padding: 2rem 5rem;
-    margin-top: 12rem;
+    padding: 1.5rem 3rem;
+    margin-top: 10rem;
     margin-right: -2rem;
     width: 30rem;
     float: right;
@@ -77,6 +72,41 @@ nav a {
 }
 
 /* === ICON STYLES === */
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height: 8rem;
+    margin: 3rem 0;
+}
+
+.icons img {
+    display: block;
+    vertical-align: top;
+    margin: 0 auto;
+    
+}
+
+.icons span {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: Helvetica;
+}
+
+.paper {
+    width: 3.5rem;
+}
+
+.ruler, .truck {
+    width: 5rem;
+}
+
+.ruler {
+    padding: 0 6rem;
+    padding-bottom: .50rem;
+}
 
 /* === ABOUT SECTION === */
 
@@ -102,8 +132,8 @@ nav a {
 }
 
 .philosophy, .appointments {
-    width: 30%;
-    margin-right: 7%;
+    width: 35%;
+    margin-right: 5%;
 }
 /* === FOOTER STYLES === */
 
