@@ -2,6 +2,7 @@
 
 html {
     font-size: 18px;
+    font-family: Helvetica;
     line-height: 1.4;
 }
 
@@ -23,12 +24,6 @@ nav a {
     height: 35rem;
     background-size: cover;
     background-position: top;
-    
-}
-
-.header-nav, .logo {
-    display: flex;
-    align-items: center;
 }
 
 .header-nav {
@@ -36,6 +31,11 @@ nav a {
     justify-content: space-between;
     padding: 1rem 0;
     font-family: Helvetica;
+}
+
+.header-nav, .logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -50,10 +50,9 @@ nav a {
 
 .navigation {
     display: flex;
-    
 }
 
-/* === FEATURED IMAGE AND TITLE STYLES === */
+/* === TAGLINE STYLES === */
 
 .img-header {
     background-color: white;
@@ -70,4 +69,26 @@ nav a {
     text-align: center;
 }
 
+/* === ICON STYLES === */
 
+/* === FOOTER STYLES === */
+
+.copyright {
+    width: 960px;
+    background-color: azure;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.footer img {
+    height: 1.5rem;
+    padding: 0 1rem 0 4rem;
+}
+
+.footer p {
+    font-family: Helvetica;
+}
