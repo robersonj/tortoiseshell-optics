@@ -26,14 +26,16 @@ nav a {
     background-position: top;
 }
 
-.header-nav {
+.header-bar {
+    position: relative;
+    top: 1rem;
     background-color: cadetblue;
     justify-content: space-between;
     padding: 1rem 0;
     font-family: Helvetica;
 }
 
-.header-nav, .logo {
+.header-bar, .logo {
     display: flex;
     align-items: center;
 }
@@ -50,6 +52,11 @@ nav a {
 
 .navigation {
     display: flex;
+}
+
+.experiment {
+    height: 1rem;
+    background-color: blue;
 }
 
 /* === TAGLINE STYLES === */
@@ -71,6 +78,33 @@ nav a {
 
 /* === ICON STYLES === */
 
+/* === ABOUT SECTION === */
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.about p {
+    font-family: Helvetica;
+}
+.about h3 {
+    background-color: cadetblue;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0.5rem 0 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+}
+
+.philosophy, .appointments {
+    width: 30%;
+    margin-right: 7%;
+}
 /* === FOOTER STYLES === */
 
 .copyright {
