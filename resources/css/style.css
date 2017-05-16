@@ -1,14 +1,21 @@
 /* === UNIVERSAL STYLES === */
 
+* {
+    font-family: Helvetica;
+}
+
 html {
     font-size: 18px;
-    font-family: Helvetica;
     line-height: 1.4;
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 /* === LOGO AND NAVIGATION STYLES === */
@@ -19,7 +26,7 @@ nav a {
     color: white;
 }
 
-.header {
+header {
     background-image: url("../images/background.png");
     height: 30rem;
     background-size: cover;
@@ -32,11 +39,9 @@ nav a {
     background-color: cadetblue;
     justify-content: space-between;
     padding: 1rem 0;
-    font-family: Helvetica;
 }
 
 .header-bar, .logo {
-    display: flex;
     align-items: center;
 }
 
@@ -50,15 +55,10 @@ nav a {
     color: white;
 }
 
-.navigation {
-    display: flex;
-}
-
 /* === TAGLINE STYLES === */
 
 .tagline {
     background-color: white;
-    font-family: Helvetica;
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.2;
@@ -74,7 +74,6 @@ nav a {
 /* === ICON STYLES === */
 
 .icons {
-    display: flex;
     justify-content: center;
     align-items: baseline;
     height: 8rem;
@@ -85,25 +84,23 @@ nav a {
     display: block;
     vertical-align: top;
     margin: 0 auto;
-    
 }
 
 .icons span {
     display: block;
     text-align: center;
     margin-top: 1rem;
-    font-family: Helvetica;
 }
 
-.paper {
-    width: 3.5rem;
-}
-
-.ruler, .truck {
+.delivery img, .fittings img {
     width: 5rem;
 }
 
-.ruler {
+.exams img {
+    width: 3.5rem;
+}
+
+.fittings img {
     padding: 0 6rem;
     padding-bottom: .50rem;
 }
@@ -111,18 +108,13 @@ nav a {
 /* === ABOUT SECTION === */
 
 .about {
-    display: flex;
     justify-content: center;
     margin-bottom: 5rem;
 }
 
-.about p {
-    font-family: Helvetica;
-}
 .about h3 {
     background-color: cadetblue;
     color: white;
-    font-family: Helvetica;
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
@@ -137,22 +129,17 @@ nav a {
 }
 /* === FOOTER STYLES === */
 
-.copyright {
+footer {
     width: 960px;
     background-color: azure;
 }
 
-.footer {
-    display: flex;
+footer div {
     align-items: center;
     padding: 4rem 0;
 }
 
-.footer img {
+footer img {
     height: 1.5rem;
     padding: 0 1rem 0 4rem;
-}
-
-.footer p {
-    font-family: Helvetica;
 }
