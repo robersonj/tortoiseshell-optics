@@ -152,9 +152,9 @@ footer img {
 
 /* === RESPONSIVE DESIGN === */
 
-/* Tablet: Portrait and Landscape */
+/* Tablet */
 
-@media only screen and (max-width : 955px) {
+@media only screen and (max-width : 1050px) {
     
     
     .about h3 {
@@ -200,7 +200,7 @@ footer img {
     }
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 640px) {
         
         .container {
             100%;
@@ -218,6 +218,11 @@ footer img {
         padding-top: 0.75rem;
         padding-bottom: 0.75rem;
         }
+    
+    .about p {
+        font-size: 0.85rem;
+        line-height: 1.25rem;
+    }
     
         .icons {
             flex-direction: column;
@@ -280,10 +285,21 @@ footer img {
         display: none;
     }
     
-    
-    
-    
         main {
             margin-top: 3.77rem;
         }
     }
+
+
+@media only screen and (max-width: 750px) {
+    header {
+        background-size: cover;
+        height: 18rem;
+    }
+    
+    .tagline {
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
